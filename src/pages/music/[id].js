@@ -27,7 +27,7 @@ const test1 = [
 
 export default function Music() {
 
-    return (hi)
+    return ('hi')
 
     const is = [
         {
