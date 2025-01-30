@@ -157,9 +157,10 @@ let login={
 }
 
 
-functions.localStorageAcces('POST', 'multifunctions', login)
+//functions.localStorageAcces('POST', 'multifunctions', login)
 
 export default function LoginMold() {
+    return 'hola mundo'
     const [body, setBody] = useState({});
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
