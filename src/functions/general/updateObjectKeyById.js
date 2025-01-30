@@ -1,4 +1,10 @@
 export default function updateNestedObjectById(id, obj, key, newValue) {
+
+    console.log( id);
+    console.log( obj);
+    console.log( key);
+    console.log( newValue);
+    
     // Crear una copia del objeto original
     const newObj = { ...obj };
 

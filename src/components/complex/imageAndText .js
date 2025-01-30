@@ -6,6 +6,11 @@ const ImageAndText = ({content}) => {
     
   const [items, setItems] = useState(content); // Estado para almacenar los datos dinámicos
 
+  useEffect(() => {
+    setItems(content)
+    console.log(content);        
+  }, [content]);
+
   return (
     <div>
       {items.map((item, index) => (
