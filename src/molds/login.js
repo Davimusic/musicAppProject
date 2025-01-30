@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
-import importAllFunctions from "@/functions/general/importAllLocalFunctions";
+//import { useRouter } from "next/navigation";
+//import importAllFunctions from "@/functions/general/importAllLocalFunctions";
 '../estilos/general/general.css'
 
 let functions = importAllFunctions()
