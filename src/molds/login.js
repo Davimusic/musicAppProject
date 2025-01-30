@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 //import importAllFunctions from "@/functions/general/importAllLocalFunctions";
 '../estilos/general/general.css'
 
-let functions = importAllFunctions()
+//let functions = importAllFunctions()
 
 let login={
     "type": "Container",
