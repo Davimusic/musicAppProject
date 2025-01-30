@@ -6,8 +6,6 @@ export default function getMenuContent(){
     const router = useRouter();
 
     return( <>
-                <button className="botones" onClick={() => { window.location.href = 'https://apu-kappa.vercel.app/' }}>APU</button>
-                <button className="botones" onClick={() => { window.location.href = 'https://gannt-blush.vercel.app/' }}>GANNT</button>
                 <button className="botones" onClick={handleMultipleFunctions(
                 () => localStorageAcces('POST', 'loggingStatus', false),                     
                 () => router.push('/')
