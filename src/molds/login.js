@@ -178,7 +178,7 @@ export default function LoginMold() {
         functions.inyectClassNamesToDOM(functions.importClassNames()); 
     }, []);
 
-    router.push('/hola')
+    router.push('/')
 
     /*useEffect(() => {
         functions.evaluteAction(functions.localStorageAcces('GET', 'loggingStatus'),()=> router.push('/first'),()=> console.log('login'))

@@ -6,6 +6,7 @@ import HandleMultipleFunctions from "@/functions/general/handleMultipleFunctions
 import localStorageAcces from "@/functions/security/localStorageAcces";
 
 export function Menu({ children, imageLink, body, backgroundColor, zIndex }) {
+    return null
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const router = useRouter();
     
