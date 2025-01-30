@@ -1,3 +1,4 @@
+"use client"
 import Audio from "@/components/simple/audio";
 import Image from "@/components/simple/image";
 import Text from "@/components/simple/text";
