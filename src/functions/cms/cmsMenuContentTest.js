@@ -5,7 +5,7 @@ import localStorageAcces from '../security/localStorageAcces';
 export default function CmsMenuContent(){
     const router = useRouter();
 
-    return( <>
+    return( <>//location?
                 <button className="botones" onClick={handleMultipleFunctions(
                 () => localStorageAcces('POST', 'loggingStatus', false),                     
                 () => router.push('/')
